@@ -3,7 +3,12 @@ Public class Fruit{
 public static void main(String args[]){
 Scanner sc=new Scanner(System.in);
 System.out.println("Enter the fruit name");
-String[] s=sc.nextLine();
+String[] s=new String[];
+l=s.strlen();
+for(i=0;i<l;i++)
+{
+s[i]=sc.nextLine();
+}
 System.out.println(s);
 }
 }
