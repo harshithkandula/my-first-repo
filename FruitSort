@@ -1,7 +1,19 @@
 import java,util,*;
+public void fruitColor()
+{
+System.out.println("Enter fruit color");
+String[] c=new String[];
+l=c.strlen();
+for(i=0;i<l;i++)
+{
+c[i]=sc.nextLine();
+}
+System.out.println(c);
+}
 Public class Fruit{
 public static void main(String args[]){
 Scanner sc=new Scanner(System.in);
+Fruit f=new Fruit();
 System.out.println("Enter the fruit name");
 String[] s=new String[];
 l=s.strlen();
@@ -10,5 +22,6 @@ for(i=0;i<l;i++)
 s[i]=sc.nextLine();
 }
 System.out.println(s);
+f.fruitColor();
 }
 }
